@@ -26,9 +26,9 @@ const Navbar: React.FC = () => {
           <Link to="/" className="flex items-center gap-3">
             {/* UTN Logo - Using SVG for better quality, inverted in dark mode if needed, though official logos usually maintain colors. 
                 Applying a brightness filter for dark mode to ensure visibility if it's black text. */}
-            <img
-              src="https://www.frrq.utn.edu.ar/wp-content/uploads/2023/03/LogoUTN-negro-HQ.png"
-              alt="UTN Logo"
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Logo_UTN.svg" 
+              alt="UTN Logo" 
               className="h-10 w-auto dark:invert dark:brightness-200"
             />
             <div className="flex flex-col">

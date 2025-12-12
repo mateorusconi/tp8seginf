@@ -3,10 +3,9 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://GITHUB_USERNAME.github.io/REPO_NAME",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
