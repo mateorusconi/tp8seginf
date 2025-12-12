@@ -1,11 +1,41 @@
-<div align="center">
+# UTN TP8 - Seguridad Corporativa
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Aplicación interactiva desarrollada en React + Vite para la materia de Seguridad Corporativa.
 
-  <h1>Built with AI Studio</h2>
+## Integrantes
+- Rusconi Mateo
+- Ruiz Paez Nicolas Jose
+- Mauricio Paez Ferrer
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Instalación y Ejecución Local
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+1. Asegúrate de tener Node.js instalado.
+2. Abre la terminal en esta carpeta.
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+4. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
 
-</div>
+## Despliegue a GitHub Pages
+
+Este proyecto ya está configurado para desplegarse fácilmente.
+
+1. Crea un repositorio en GitHub.
+2. Vincula tu carpeta local con el repositorio:
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git branch -M main
+   git remote add origin https://github.com/TU_USUARIO/TU_REPO.git
+   git push -u origin main
+   ```
+3. Ejecuta el comando de despliegue:
+   ```bash
+   npm run deploy
+   ```
+4. Ve a la configuración de tu repositorio en GitHub -> Pages y verifica que el sitio esté activo.
